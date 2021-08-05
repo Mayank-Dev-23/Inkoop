@@ -261,6 +261,8 @@ padding-left: 30px;
 @media  screen and (min-width: 768px) {
   .cardcontain{
     display:flex;
+    margin-top: 50px;
+    margin-left: 0;
   }
   .hide{
     display: flex;
