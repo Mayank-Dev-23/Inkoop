@@ -16,7 +16,7 @@ export default function Home() {
 
 
       <Header />
-      <main class="container">
+      <main className="container">
 <Sidebar />
 <Mainbody />
 </main>
