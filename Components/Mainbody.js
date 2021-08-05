@@ -12,70 +12,70 @@ const food=[
 
 function Mainbody() {
     return (
-        <div class="mainbody">
+        <div className="mainbody">
 
 <div >
-    <div class="upper">
-    <h1 class="mainbodyhead">What are you<br /> having for lunch?</h1>
-    <div  class="footer2  ">
+    <div className="upper">
+    <h1 className="mainbodyhead">What are you<br /> having for lunch?</h1>
+    <div  className="footer2  ">
     <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea perferendis dolor laboriosam iure sint nam voluptas reiciendis ullam praesentium.</p>
-<div class="line"></div>
+<div className="line"></div>
 </div>
 </div>
 
-    <div class="foodcontainer">
+    <div className="foodcontainer">
 
-    <div class="container2">
-    <div class="foodimage" >
-        <img class="image" src="/mexicantaco.jpg"
+    <div className="container2">
+    <div className="foodimage" >
+        <img className="image" src="/mexicantaco.jpg"
         layout="fill"
         />
-        <div class="name"> <p>Mexican Taco</p></div>
+        <div className="name"> <p>Mexican Taco</p></div>
        
     </div>
     </div>
-    <div class="container2">
-    <div class="foodimage" >
-        <img class="image" src="/pizza.jpg"
+    <div className="container2">
+    <div className="foodimage" >
+        <img className="image" src="/pizza.jpg"
         layout="fill"
         />
-        <div class="name"> <p>Farmhouse Pizza</p></div>
+        <div className="name"> <p>Farmhouse Pizza</p></div>
        
     </div>
     </div>
-    <div class="container2">
-    <div class="foodimage" >
-        <img class="image" src="/chickenburger.jpg"
+    <div className="container2">
+    <div className="foodimage" >
+        <img className="image" src="/chickenburger.jpg"
         layout="fill"
         />
-        <div class="name"> <p>chicken burger</p></div>
+        <div className="name"> <p>chicken burger</p></div>
        
     </div>
     </div>
-    <div class="container2">
-    <div class="foodimage" >
-        <img class="image" src="/nachos.jpg"
+    <div className="container2">
+    <div className="foodimage" >
+        <img className="image" src="/nachos.jpg"
         layout="fill"
         />
-        <div class="name"> <p>Loaded Nachos</p></div>
+        <div className="name"> <p>Loaded Nachos</p></div>
        
     </div>
     </div>
-    <div class="container2 hidden">
-    <div class="foodimage" >
-        <img class="image" src="/noodles.jpg"
+    <div className="container2 hidden">
+    <div className="foodimage" >
+        <img className="image" src="/noodles.jpg"
         layout="fill"
         />
-        <div class="name"> <p>Hakka Noodles</p></div>
+        <div className="name"> <p>Hakka Noodles</p></div>
        
     </div>
     </div>
     
 
     </div>
-    <div  class="footer">
+    <div  className="footer">
     <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea perferendis dolor laboriosam iure sint nam voluptas reiciendis ullam praesentium.</p>
-<div class="line"></div>
+<div className="line"></div>
 </div>
     
 </div>

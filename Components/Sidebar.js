@@ -1,29 +1,22 @@
-const data=[
-    {name:"About"},
-    {name:"Services"},
-    {name:"Cuisine"},
-    {name:"Gallery"},
-    {name:"Contact"},
-    {name:"Book"},
-]
+
 
 
 function Sidebar() {
     return (
-        <div class="sidebar">
+        <div className="sidebar">
             <h1>Lorem Ispum</h1>
-            <div class="sideitem">
+            <div className="sideitem">
                 
-                    <p class="sideitemname">About</p>
-                    <div class="active"></div>
-                    <p class="sideitemname">Services</p>
-                    <p class="sideitemname">Cuisine</p>
-                    <p class="sideitemname">Gallery</p>
-                    <p class="sideitemname">Contact</p>
-                    <p class="sideitemname">Book</p>
+                    <p className="sideitemname">About</p>
+                    <div className="active"></div>
+                    <p className="sideitemname">Services</p>
+                    <p className="sideitemname">Cuisine</p>
+                    <p className="sideitemname">Gallery</p>
+                    <p className="sideitemname">Contact</p>
+                    <p className="sideitemname">Book</p>
              
             </div>
-            <div class="cartbutton">
+            <div className="cartbutton">
             <button>Cart</button>
             </div>
             
