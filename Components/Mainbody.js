@@ -14,7 +14,7 @@ function Mainbody() {
     return (
         <div className="mainbody">
 
-<div >
+
     <div className="upper">
     <h1 className="mainbodyhead">What are you<br /> having for lunch?</h1>
     <div  className="footer2  ">
@@ -23,62 +23,74 @@ function Mainbody() {
 </div>
 </div>
 
-    <div className="foodcontainer">
+<div className="cardcontain">
 
-    <div className="container2">
-    <div className="foodimage" >
-        <img className="image" src="/mexicantaco.jpg"
-        layout="fill"
-        />
-        <div className="name"> <p>Mexican Taco</p></div>
-       
-    </div>
-    </div>
-    <div className="container2">
-    <div className="foodimage" >
-        <img className="image" src="/pizza.jpg"
-        layout="fill"
-        />
-        <div className="name"> <p>Farmhouse Pizza</p></div>
-       
-    </div>
-    </div>
-    <div className="container2">
-    <div className="foodimage" >
-        <img className="image" src="/chickenburger.jpg"
-        layout="fill"
-        />
-        <div className="name"> <p>chicken burger</p></div>
-       
-    </div>
-    </div>
-    <div className="container2">
-    <div className="foodimage" >
-        <img className="image" src="/nachos.jpg"
-        layout="fill"
-        />
-        <div className="name"> <p>Loaded Nachos</p></div>
-       
-    </div>
-    </div>
-    <div className="container2 hidden">
-    <div className="foodimage" >
-        <img className="image" src="/noodles.jpg"
-        layout="fill"
-        />
-        <div className="name"> <p>Hakka Noodles</p></div>
-       
-    </div>
-    </div>
-    
+<div className="card">
+<img 
+className="image"
+src="/mexicantaco.jpg" alt=""/>
 
-    </div>
-    <div  className="footer">
+<div className="name">
+<p>Mexican Taco</p>
+</div>
+
+
+</div>
+
+<div className="card">
+<img 
+className="image"
+src="/pizza.jpg" alt=""/>
+
+<div className="name">
+<p>Farmhouse Pizza</p>
+</div>
+
+
+</div>
+
+<div className="card">
+<img 
+className="image"
+src="/chickenburger.jpg" alt=""/>
+
+<div className="name">
+<p>Chicken Burger</p>
+</div>
+
+
+</div>
+<div className="card">
+<img 
+className="image"
+src="/nachos.jpg" alt=""/>
+
+<div className="name">
+<p> Loaded Nachos</p>
+</div>
+
+
+</div>
+<div className="card hide">
+<img 
+className="image"
+src="/noodles.jpg" alt=""/>
+
+<div className="name">
+<p>Hakka Noodles</p>
+</div>
+
+
+</div>
+
+
+</div>
+<div  className="footer show ">
     <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea perferendis dolor laboriosam iure sint nam voluptas reiciendis ullam praesentium.</p>
 <div className="line"></div>
 </div>
-    
-</div>
+
+
 
             
         </div>
