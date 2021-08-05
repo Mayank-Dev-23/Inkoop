@@ -2,12 +2,12 @@ import {MenuAlt2Icon, ShoppingCartIcon} from "@heroicons/react/solid"
 
 function Header() {
     return (
-        <div class="header">
-            <div><MenuAlt2Icon  class="icon"/></div>
+        <div className="header">
+            <div><MenuAlt2Icon  className="icon"/></div>
             <div>
                 <p>Lorem</p>
             </div>
-            <div><ShoppingCartIcon class="icon" /></div>
+            <div><ShoppingCartIcon className="icon" /></div>
         </div>
     )
 }
